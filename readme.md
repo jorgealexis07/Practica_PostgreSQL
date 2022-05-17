@@ -21,6 +21,7 @@ Nos pedira que nos loguemos de acuerdo a las credenciales dadas en la instalacio
 ![Texto alternativo](https://github.com/jorgealexis07/Practica_PostgreSQL/blob/master/img/5createtable.PNG)
 
 6. listamos la tabla que acabamos de crear:
+
 ![Texto alternativo](https://github.com/jorgealexis07/Practica_PostgreSQL/blob/master/img/6listartables.PNG)
 
 7. Realizamos las siguientes inserciones a la tabla `explorers`.
@@ -30,7 +31,8 @@ Nos pedira que nos loguemos de acuerdo a las credenciales dadas en la instalacio
 `select * from <name_table> `
 ![Texto alternativo](https://github.com/jorgealexis07/Practica_PostgreSQL/blob/master/img/leer%20registros%20de%20la%20tabla.PNG)
 
-9. Leemos solo el nombre de los registros de la tabla `explorers` con el siguiente comando: `select e.username from explorers e;`
+9. Leemos solo el nombre de los registros de la tabla `explorers` con el siguiente comando:
+     `select e.username from explorers e;`
 ![Texto alternativo](https://github.com/jorgealexis07/Practica_PostgreSQL/blob/master/img/lee%20solo%20los%20nombres%20de%20los%20registros%20de%20la%20bd.PNG)
 
 10. Actualizamos el registro con el siguiente comando `update explorers e set username = 'Explorer 1 Upd' where e.id = 1;`: 
