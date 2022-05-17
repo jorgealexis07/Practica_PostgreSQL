@@ -35,7 +35,8 @@ Nos pedira que nos loguemos de acuerdo a las credenciales dadas en la instalacio
      `select e.username from explorers e;`
 ![Texto alternativo](https://github.com/jorgealexis07/Practica_PostgreSQL/blob/master/img/lee%20solo%20los%20nombres%20de%20los%20registros%20de%20la%20bd.PNG)
 
-10. Actualizamos el registro con el siguiente comando `update explorers e set username = 'Explorer 1 Upd' where e.id = 1;`: 
+10. Actualizamos el registro con el siguiente comando:
+ `update explorers e set username = 'Explorer 1 Upd' where e.id = 1;`: 
 ![Texto alternativo](https://github.com/jorgealexis07/Practica_PostgreSQL/blob/master/img/actualizacion.PNG)
 
 11. Eliminamos el registro con el siguiente comando `delete from explorers e where e.id = 1;`: 
