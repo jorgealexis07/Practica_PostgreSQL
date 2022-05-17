@@ -4,6 +4,6 @@ Para la relizacion de asta practica se debera tener instalado [Postgresql](https
 
 1. Abrimos nuestra linea de comando `SQL Shell` o en su caso en la cmd con el comando: `psql`. 
 Nos pedira que nos loguemos de acuerdo a las credenciales dadas en la instalacion.
-![Texto alternativo]("img\1login psql sql shell.PNG")
+![Texto alternativo]("./img/1login psql sql shell.PNG")
 
 2. 
